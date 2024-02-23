@@ -6,8 +6,8 @@ export default function Home() {
       <div className={styles.mainContent}>
         <div className={styles.leftContent}>
           <h1>
-            <div className={styles.greyH1}>Lessons and insights </div>
-            <div className={styles.greenH1}>from 8 years</div>
+            <span className={styles.greyH1}>Lessons and insights </span>
+            <span className={styles.greenH1}>from 8 years</span>
           </h1>
           <p>
             Where to grow your business as a photographer: site or social media?

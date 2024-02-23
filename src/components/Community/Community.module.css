@@ -1,0 +1,37 @@
+.community {
+  font-family: "Inter", sans-serif;
+  color: #717171;
+  padding: 0 4rem;
+}
+
+.upperSubsection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.upperSubsection > h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.lowerSubsection {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.group > h3 {
+  font-size: 1.5rem;
+}
+
+.group > p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
