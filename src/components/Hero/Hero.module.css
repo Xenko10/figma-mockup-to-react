@@ -64,6 +64,8 @@
   opacity: 0.3;
   padding: 0.3125rem;
   border-radius: 50%;
+
+  cursor: pointer;
 }
 
 .dot.active {
