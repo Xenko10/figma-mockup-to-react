@@ -1,0 +1,71 @@
+.home {
+  background-color: #f5f7fa;
+
+  font-family: "Inter", sans-serif;
+
+  padding: 4rem 6.25rem 0 6.25rem;
+}
+
+.mainContent {
+  display: grid;
+  column-gap: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.mainContent > h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.greyH1 {
+  color: #4d4d4d;
+}
+
+.greenH1 {
+  color: #4caf4f;
+}
+
+.mainContent > img {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  justify-self: end;
+}
+
+.mainContent > p {
+  color: #717171;
+}
+
+.mainContent > button {
+  background-color: #4caf4f;
+  color: white;
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 0.3125rem;
+
+  padding: 0.625rem 1.375rem;
+
+  cursor: pointer;
+
+  justify-self: start;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+
+  padding-bottom: 1rem;
+}
+
+.dot {
+  background-color: #4caf4f;
+  opacity: 0.3;
+  padding: 0.3125rem;
+  border-radius: 50%;
+}
+
+.dot.active {
+  opacity: 1;
+}
