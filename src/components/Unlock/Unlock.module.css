@@ -2,10 +2,15 @@
   color: #4d4d4d;
   font-family: "Inter", sans-serif;
 
-  padding: 2rem 4rem 0 4rem;
+  padding: 2rem 6.25rem 2rem 6.25rem;
   display: flex;
   align-items: center;
+  gap: 4rem;
   justify-content: space-between;
+}
+
+.content {
+  padding-bottom: 2rem;
 }
 
 .content > h2 {

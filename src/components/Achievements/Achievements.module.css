@@ -1,0 +1,49 @@
+.achievements {
+  background-color: #f5f7fa;
+
+  font-family: "Inter", sans-serif;
+
+  padding: 2.5rem 6.25rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.leftContent > h2 {
+  margin: 0;
+  color: #4d4d4d;
+  font-size: 2rem;
+}
+
+.leftContent > p {
+  color: #18191f;
+}
+
+.greenH2 {
+  color: #4caf4f;
+}
+
+.rightContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.item > div > h3 {
+  margin: 0;
+  font-size: 1.625rem;
+  color: #4d4d4d;
+}
+
+.item > div > p {
+  margin: 0;
+  color: #717171;
+}
