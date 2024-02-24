@@ -1,0 +1,42 @@
+.customers {
+  font-family: "Inter", sans-serif;
+
+  padding: 2rem 6.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.375rem;
+}
+
+.content > p {
+  color: #717171;
+  margin: 0;
+}
+
+.customer > h2 {
+  color: #4caf4f;
+  font-size: 1.25rem;
+  margin-bottom: 0.375rem;
+}
+
+.customer > p {
+  color: #89939e;
+  margin: 0;
+}
+
+.customersLogosWrapper {
+  margin-top: 1.37rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.customersLogosWrapper > span {
+  font-weight: 700;
+  color: #4caf4f;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
