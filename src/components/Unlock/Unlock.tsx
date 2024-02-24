@@ -3,7 +3,7 @@ import styles from "./Unlock.module.css";
 export default function Unlock() {
   return (
     <div className={styles.unlock}>
-      <img src='./unlock.png' alt='mobile login' />
+      <img src='./img/unlock.png' alt='mobile login' />
       <div className={styles.content}>
         <h2>The unseen of spending three years at Pixelgrade</h2>
         <p>

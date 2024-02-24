@@ -19,7 +19,7 @@ export default function Clients() {
         {clientLogos.map((logo, index) => (
           <img
             key={index}
-            src={`./clients/${logo}`}
+            src={`./img/clients/${logo}`}
             alt={`Client ${index + 1}`}
           />
         ))}

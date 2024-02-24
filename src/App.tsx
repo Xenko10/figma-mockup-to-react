@@ -4,6 +4,7 @@ import Clients from "./components/Clients/Clients.tsx";
 import Community from "./components/Community/Community.tsx";
 import Unlock from "./components/Unlock/Unlock.tsx";
 import Achievements from "./components/Achievements/Achievements.tsx";
+import Design from "./components/Design/Design.tsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Community />
       <Unlock />
       <Achievements />
+      <Design />
     </>
   );
 }

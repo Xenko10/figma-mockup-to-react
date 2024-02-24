@@ -14,7 +14,7 @@ export default function Home() {
           </p>
           <button>Register</button>
         </div>
-        <img src='/hero.png' alt='IT specialist' />
+        <img src='./img/hero.png' alt='IT specialist' />
       </div>
       <div className={styles.dots}>
         <div className={`${styles.dot} ${styles.active}`}></div>

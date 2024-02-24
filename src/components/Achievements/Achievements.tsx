@@ -12,28 +12,28 @@ export default function Achievements() {
       </div>
       <div className={styles.rightContent}>
         <div className={styles.item}>
-          <img src='./achievements/icon1.png' alt='members' />
+          <img src='./img/achievements/icon1.png' alt='members' />
           <div>
             <h3>2,245,341</h3>
             <p>Members</p>
           </div>
         </div>
         <div className={styles.item}>
-          <img src='./achievements/icon2.png' alt='clubs' />
+          <img src='./img/achievements/icon2.png' alt='clubs' />
           <div>
             <h3>46,328</h3>
             <p>Clubs</p>
           </div>
         </div>
         <div className={styles.item}>
-          <img src='./achievements/icon3.png' alt='event bookings' />
+          <img src='./img/achievements/icon3.png' alt='event bookings' />
           <div>
             <h3>828,867</h3>
             <p>Event Bookings</p>
           </div>
         </div>
         <div className={styles.item}>
-          <img src='./achievements/icon4.png' alt='payments' />
+          <img src='./img/achievements/icon4.png' alt='payments' />
           <div>
             <h3>1,926,436</h3>
             <p>Payments</p>

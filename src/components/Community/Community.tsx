@@ -12,7 +12,7 @@ export default function Community() {
       </div>
       <div className={styles.lowerSubsection}>
         <div className={styles.group}>
-          <img src='./community/icon1.png' alt='people icon' />
+          <img src='./img/community/icon1.png' alt='people icon' />
           <h3>
             Membership
             <div>Organizations</div>
@@ -23,7 +23,7 @@ export default function Community() {
           </p>
         </div>
         <div className={styles.group}>
-          <img src='./community/icon2.png' alt='people icon' />
+          <img src='./img/community/icon2.png' alt='people icon' />
           <h3>
             National
             <div>Associations</div>
@@ -34,7 +34,7 @@ export default function Community() {
           </p>
         </div>
         <div className={styles.group}>
-          <img src='./community/icon3.png' alt='people icon' />
+          <img src='./img/community/icon3.png' alt='people icon' />
           <h3>
             Clubs And
             <div>Groups</div>
