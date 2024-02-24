@@ -1,7 +1,7 @@
 .customers {
   font-family: "Inter", sans-serif;
 
-  padding: 2rem 6.25rem;
+  padding: 2rem 6.25rem 3rem 6.25rem;
 
   display: flex;
   align-items: center;
@@ -44,4 +44,5 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  cursor: pointer;
 }

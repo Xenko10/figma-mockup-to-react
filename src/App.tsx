@@ -6,6 +6,7 @@ import Unlock from "./components/Unlock/Unlock.tsx";
 import Achievements from "./components/Achievements/Achievements.tsx";
 import Design from "./components/Design/Design.tsx";
 import Customers from "./components/Customers/Customers.tsx";
+import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates.tsx";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Achievements />
       <Design />
       <Customers />
+      <CommunityUpdates />
     </>
   );
 }
