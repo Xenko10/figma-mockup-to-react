@@ -8,6 +8,7 @@ import Design from "./components/Design/Design.tsx";
 import Customers from "./components/Customers/Customers.tsx";
 import CommunityUpdates from "./components/CommunityUpdates/CommunityUpdates.tsx";
 import Demo from "./components/Demo/Demo.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Customers />
       <CommunityUpdates />
       <Demo />
+      <Footer />
     </>
   );
 }
