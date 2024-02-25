@@ -1,18 +1,27 @@
 :root {
-  --small-padding: 4.6875rem;
   --padding: 6.25rem;
-  --big-padding: 9.375rem;
+
+  --smallest-padding: 2rem;
+  --small-padding: 4.6875rem;
+  --medium-padding: 9.375rem;
+  --big-padding: 12.5rem;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 900px) {
   :root {
-    --padding: var(--small-padding);
+    --padding: var(--smallest-padding);
   }
 }
 
 @media (min-width: 1000px) {
   :root {
-    --padding: 6.25rem;
+    --padding: var(--small-padding);
+  }
+}
+
+@media (min-width: 1250px) {
+  :root {
+    --padding: var(--medium-padding);
   }
 }
 

@@ -1,6 +1,5 @@
 .demo {
   font-family: "Inter", sans-serif;
-  color: #263238;
 
   padding: 2rem var(--padding) 3rem var(--padding);
   display: flex;
