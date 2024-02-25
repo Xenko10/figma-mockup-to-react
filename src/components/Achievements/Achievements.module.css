@@ -2,13 +2,18 @@
   background-color: #f5f7fa;
 
   font-family: "Inter", sans-serif;
+}
 
+.contentWrapper {
   padding: 2.5rem var(--padding);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
+
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .leftContent > h2 {

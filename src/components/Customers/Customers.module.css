@@ -2,6 +2,9 @@
   font-family: "Inter", sans-serif;
 
   padding: 2rem var(--padding) 3rem var(--padding);
+  margin: 0 auto;
+
+  max-width: var(--max-width);
 
   display: flex;
   align-items: center;

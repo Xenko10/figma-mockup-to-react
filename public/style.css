@@ -1,32 +1,4 @@
 :root {
+  --max-width: 900px;
   --padding: 6.25rem;
-
-  --smallest-padding: 2rem;
-  --small-padding: 4.6875rem;
-  --medium-padding: 9.375rem;
-  --big-padding: 12.5rem;
-}
-
-@media (min-width: 900px) {
-  :root {
-    --padding: var(--smallest-padding);
-  }
-}
-
-@media (min-width: 1000px) {
-  :root {
-    --padding: var(--small-padding);
-  }
-}
-
-@media (min-width: 1250px) {
-  :root {
-    --padding: var(--medium-padding);
-  }
-}
-
-@media (min-width: 1500px) {
-  :root {
-    --padding: var(--big-padding);
-  }
 }

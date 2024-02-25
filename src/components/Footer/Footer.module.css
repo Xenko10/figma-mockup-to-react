@@ -1,9 +1,13 @@
 .footer {
   font-family: "Inter", sans-serif;
   color: #f5f7fa;
-
   background-color: #263238;
+}
+
+.contentWrapper {
   padding: 2rem var(--padding);
+  margin: 0 auto;
+  max-width: var(--max-width);
 
   display: flex;
   justify-content: space-between;

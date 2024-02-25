@@ -6,6 +6,9 @@
   align-items: center;
   gap: 4rem;
   justify-content: space-between;
+
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .content {

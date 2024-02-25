@@ -2,8 +2,12 @@
   background-color: #f5f7fa;
 
   font-family: "Inter", sans-serif;
+}
 
+.contentWrapper {
   padding: 4rem var(--padding) 0 var(--padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .mainContent {

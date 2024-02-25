@@ -2,6 +2,8 @@
   font-family: "Inter", sans-serif;
   color: #717171;
   padding: 2rem var(--padding) 0 var(--padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .upperSubsection {
