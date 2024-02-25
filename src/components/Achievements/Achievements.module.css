@@ -3,7 +3,7 @@
 
   font-family: "Inter", sans-serif;
 
-  padding: 2.5rem 6.25rem;
+  padding: 2.5rem var(--padding);
 
   display: flex;
   justify-content: space-between;

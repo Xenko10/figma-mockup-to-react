@@ -3,7 +3,7 @@
   color: #f5f7fa;
 
   background-color: #263238;
-  padding: 2rem 6.25rem;
+  padding: 2rem var(--padding);
 
   display: flex;
   justify-content: space-between;

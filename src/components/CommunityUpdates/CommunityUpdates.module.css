@@ -1,6 +1,6 @@
 .communityUpdates {
   font-family: "Inter", sans-serif;
-  padding: 0 6.25rem;
+  padding: 0 var(--padding);
 
   display: flex;
   flex-direction: column;

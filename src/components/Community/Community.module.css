@@ -1,7 +1,7 @@
 .community {
   font-family: "Inter", sans-serif;
   color: #717171;
-  padding: 2rem 6.25rem 0 6.25rem;
+  padding: 2rem var(--padding) 0 var(--padding);
 }
 
 .upperSubsection {

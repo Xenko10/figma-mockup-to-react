@@ -2,7 +2,7 @@
   font-family: "Inter", sans-serif;
   display: flex;
   justify-content: space-between;
-  margin: 0.75rem 6.25rem;
+  margin: 0.75rem var(--padding);
 }
 
 .logo {

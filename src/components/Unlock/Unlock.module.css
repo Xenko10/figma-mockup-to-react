@@ -1,7 +1,7 @@
 .unlock {
   font-family: "Inter", sans-serif;
 
-  padding: 2rem 6.25rem;
+  padding: 2rem var(--padding);
   display: flex;
   align-items: center;
   gap: 4rem;

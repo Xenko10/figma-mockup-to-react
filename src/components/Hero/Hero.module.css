@@ -3,7 +3,7 @@
 
   font-family: "Inter", sans-serif;
 
-  padding: 4rem 6.25rem 0 6.25rem;
+  padding: 4rem var(--padding) 0 var(--padding);
 }
 
 .mainContent {
