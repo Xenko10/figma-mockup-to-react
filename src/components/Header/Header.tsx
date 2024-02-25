@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <img src='./icon.png' alt='icon' />
+        <img src='./img/icon.png' alt='icon' />
         <span className={styles.companyName}>Nexcent</span>
       </div>
       <ul className={styles.rightMenu}>

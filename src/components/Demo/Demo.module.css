@@ -1,0 +1,31 @@
+.demo {
+  font-family: "Inter", sans-serif;
+  color: #263238;
+
+  padding: 5rem 6.25rem 2rem 6.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.demo > h2 {
+  font-size: 2.75rem;
+  color: #263238;
+  width: 60%;
+}
+
+.demo > button {
+  background-color: #4caf4f;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3125rem;
+  padding: 0.625rem 1.375rem;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
