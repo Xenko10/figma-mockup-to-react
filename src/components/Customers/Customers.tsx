@@ -39,8 +39,11 @@ export default function Customers() {
                 alt={`Client ${index + 1}`}
               />
             ))}
-            <span>
-              Meet all customers
+            <div>
+              <div>
+                Meet all <br />
+                customers
+              </div>
               <svg
                 width='16'
                 height='16'
@@ -54,7 +57,7 @@ export default function Customers() {
                   strokeLinecap='round'
                 />
               </svg>
-            </span>
+            </div>
           </div>
         </div>
       </div>
