@@ -1,6 +1,6 @@
 .communityUpdates {
   font-family: "Inter", sans-serif;
-  padding: 0 var(--padding) 4rem var(--padding);
+  padding: 2rem var(--padding) 4rem var(--padding);
   max-width: var(--max-width);
   margin: 0 auto;
 

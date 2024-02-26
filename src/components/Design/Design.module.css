@@ -11,8 +11,9 @@
   justify-content: space-between;
 }
 
-.content {
-  padding-bottom: 2rem;
+.design > img {
+  max-width: 309px;
+  max-height: 302px;
 }
 
 .content > h2 {
