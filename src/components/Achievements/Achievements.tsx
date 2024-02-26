@@ -4,14 +4,14 @@ export default function Achievements() {
   return (
     <div className={styles.achievements}>
       <div className={styles.contentWrapper}>
-        <div className={styles.leftContent}>
+        <div className={styles.description}>
           <h2>
             Helping a local
             <div className={styles.greenH2}> business reinvent itself</div>
           </h2>
           <p>We reached here with our hard work and dedication</p>
         </div>
-        <div className={styles.rightContent}>
+        <div className={styles.numbersContent}>
           <div className={styles.item}>
             <img src='./img/achievements/icon1.png' alt='members' />
             <div>

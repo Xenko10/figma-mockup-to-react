@@ -16,13 +16,19 @@
   margin: 0 auto;
 }
 
-.leftContent > h2 {
+@media (max-width: 700px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+}
+
+.description > h2 {
   margin: 0;
   color: #4d4d4d;
   font-size: 2rem;
 }
 
-.leftContent > p {
+.description > p {
   color: #18191f;
 }
 
@@ -30,10 +36,16 @@
   color: #4caf4f;
 }
 
-.rightContent {
+.numbersContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .numbersContent {
+    grid-template-columns: 1fr;
+  }
 }
 
 .item {
