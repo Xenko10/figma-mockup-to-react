@@ -32,6 +32,12 @@
   gap: 1.5rem;
 }
 
+@media (max-width: 600px) {
+  .lowerSubsection {
+    flex-direction: column;
+  }
+}
+
 .group > h3 {
   font-size: 1.5rem;
 }
