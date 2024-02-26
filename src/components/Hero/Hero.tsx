@@ -5,7 +5,7 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.contentWrapper}>
         <div className={styles.mainContent}>
-          <div className={styles.leftContent}>
+          <div className={styles.textContent}>
             <h1>
               <span className={styles.greyH1}>Lessons and insights </span>
               <div className={styles.greenH1}>from 8 years</div>

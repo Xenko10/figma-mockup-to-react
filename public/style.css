@@ -1,4 +1,10 @@
 :root {
-  --max-width: 900px;
+  --max-width: 1000px;
   --padding: 6.25rem;
+}
+
+@media (max-width: 850px) {
+  :root {
+    --padding: 3.125rem;
+  }
 }
