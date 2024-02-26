@@ -11,8 +11,21 @@
   margin: 0 auto;
 }
 
+@media (max-width: 750px) {
+  .unlock {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+}
+
 .content {
   padding-bottom: 2rem;
+}
+
+@media (max-width: 750px) {
+  .content {
+    padding-bottom: 0;
+  }
 }
 
 .content > h2 {
