@@ -7,7 +7,8 @@ export default function Header() {
         <img src='./img/icon.png' alt='icon' />
         <span className={styles.companyName}>Nexcent</span>
       </div>
-      <ul className={styles.rightMenu}>
+      <button>☰</button>
+      <ul>
         <li>Home</li>
         <li>Features</li>
         <li>Community</li>
